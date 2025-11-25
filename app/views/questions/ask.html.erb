@@ -1,8 +1,10 @@
+<div class="container">
 <h1>Ask the Coach</h1>
-<form action="/answer" method="get">
-    <div>
-        <label for="question">Question</label>
-        <input type="text" id="question" name="question">
+<form action="/answer" method="get" data-turbo="false">
+    <div class="mb-3">
+        <label for="question" class="form-label">Question</label>
+        <input type="text" id="question" name="question" class="form-control">
     </div>
-    <input type="submit" value="Ask Question">
+    <input type="submit" value="Ask Question" class="btn btn-primary">
 </form>
+</div>
